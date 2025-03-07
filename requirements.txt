@@ -1,0 +1,12 @@
+python-dotenv
+langchain
+openai
+langchain-openai
+langchain_chroma
+chromadb
+tiktoken
+unstructured
+streamlit
+markdown
+pandas
+langchain-community
