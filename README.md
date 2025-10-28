@@ -5,7 +5,9 @@ Execute below commands for:
 ### Create Virtual Env
 
 ```Shell
-python3 -m venv .venv
+# deprecated pip and migrated to use uv
+#python3 -m venv .venv
+vu venv
 ```
 
 ### Activate Virtual Env
@@ -17,7 +19,10 @@ source .venv/bin/activate
 #### Install requirements
 
 ```Shell
-python3 -m pip install -r requirements.txt
+# deprecated pip and migrated to use uv
+#python3 -m pip install -r requirements.txt
+uv add -r requirements.txt
+uv sync
 ```
 
 **NOTE:** Please add `.env` file and add your own OpenAI API Key "OPENAI_API_KEY=\<Key Here\>"

@@ -1,0 +1,29 @@
+[project]
+name = "learning-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+dependencies = [
+    "python-dotenv",
+    "langchain",
+    "openai",
+    "langchain-openai",
+    "langchain-chroma",
+    "chromadb",
+    "tiktoken",
+    "unstructured",
+    "streamlit",
+    "markdown",
+    "pandas",
+    "langchain-community",
+    "langgraph-cli[inmem]",
+    "mcp[cli]",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "my-first-mcp-server",
+]
