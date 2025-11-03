@@ -5,7 +5,7 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import PromptTemplate
 from langchain_community.chat_models import ChatOpenAI
-from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain
+from langchain_classic.chains.conversational_retrieval.base import ConversationalRetrievalChain
 from langchain_community.document_loaders import DirectoryLoader
 import openai
 
